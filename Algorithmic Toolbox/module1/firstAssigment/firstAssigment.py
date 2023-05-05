@@ -1,1 +1,2 @@
-def sumTwoNumbers(a,b): return a+b
+def sumTwoNumbers(a,b): 
+    return print(a+b)
