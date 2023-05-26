@@ -9,4 +9,4 @@ def fibo(n):
 
 if __name__ == "__main__":
     result = fibo(10)
-    # print("result is:",result)
+    print(result)
