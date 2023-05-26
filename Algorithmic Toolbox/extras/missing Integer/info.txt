@@ -1,0 +1,5 @@
+On this assigment, we hava an array of length n, and numbers inside can be positive 
+or negative.
+
+The objective is to:
+ ->Find the SMALLEST positive number, missing in the array
