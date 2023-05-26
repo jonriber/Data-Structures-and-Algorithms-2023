@@ -10,4 +10,5 @@ def fibo(n):
 if __name__ == "__main__":
     input_n = int(input())
     result = fibo(input_n)
+    print(result)
    
