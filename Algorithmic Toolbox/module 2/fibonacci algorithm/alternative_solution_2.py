@@ -8,5 +8,6 @@ def fibo(n):
     return fibo_array[n-1]
 
 if __name__ == "__main__":
-    result = fibo(10)
-    print(result)
+    input_n = int(input())
+    result = fibo(input_n)
+   
