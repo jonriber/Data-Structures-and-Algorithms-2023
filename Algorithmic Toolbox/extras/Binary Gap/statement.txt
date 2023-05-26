@@ -1,0 +1,14 @@
+
+
+Description of the problem
+
+input ==> number
+
+return ==> length of binary gap
+
+PSEUDO CODE:
+
+TESTS:
+1 - check input is valid
+2 - validade input is in range
+
