@@ -1,6 +1,8 @@
 def fibo(n):
+    # print("n",n)
+    if n <= 1: return 1
     fibo_array = [i for i in range(0,n+1)]
-
+    # print("array:",fibo_array)
     for num in range(2,n):
         # print(fibo_array[num])
         fibo_array[num] = fibo_array[num-1] + fibo_array[num-2]
