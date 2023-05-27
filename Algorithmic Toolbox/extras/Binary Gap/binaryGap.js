@@ -7,7 +7,7 @@ function binaryGap(num){
         maxGapValue = 0
         gapCounter = 0
     console.log("binaryString:",binaryString)
-    for(let i in binaryString){
+    for(let i of binaryString){
         if(binaryString[i] == "0") gapCounter +=1
         else if(binaryString[i] =="1"){
             maxGapValue = Math.max(maxGapValue,gapCounter)
