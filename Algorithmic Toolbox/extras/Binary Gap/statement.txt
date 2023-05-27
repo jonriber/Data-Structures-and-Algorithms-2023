@@ -19,5 +19,10 @@ TESTS:
 1 - check input is valid
 2 - validade input is in range
 3 - boudary tests:
-     - 
+     - negative numbers shouldn't be accepted and should return zero
+     - Zero number should return 0, there is no gaps, only zeros
 
+
+MY OBSERVATIONS ABOUT THIS PROBLEM:
+1 - The program will always do a full iteration over the array
+2 - So, By the end of this iteration, what really matters is the max_value, set by the number 1
