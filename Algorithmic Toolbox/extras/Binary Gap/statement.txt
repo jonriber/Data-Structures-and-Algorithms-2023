@@ -7,8 +7,17 @@ input ==> number
 return ==> length of binary gap
 
 PSEUDO CODE:
+1 - TRANSFORM DECIMAL INPUT TO BINARY AND STORE IT INSIDE SOME VARIABLE
+2 - TREAT THE BINARY VARIABLE TO REMOVE ANY UNNECESSARY characteristc, in python we can do this: [2:], in Js, maybe a split?
+3 - Create two variables, max_counter, zero_counter, both equal to zero_counter
+4 - ONE iteration through each element in binary representation
+5 - if zero = increment the zero_counter
+6 - if One - compare current zero counter with max_counter, update if necessary then clear zero_counter
+7 - return max_counter
 
 TESTS:
 1 - check input is valid
 2 - validade input is in range
+3 - boudary tests:
+     - 
 
