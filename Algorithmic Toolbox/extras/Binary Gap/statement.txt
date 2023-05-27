@@ -26,3 +26,14 @@ TESTS:
 MY OBSERVATIONS ABOUT THIS PROBLEM:
 1 - The program will always do a full iteration over the array
 2 - So, By the end of this iteration, what really matters is the max_value, set by the number 1
+
+USEFULL METHODS:
+-JS:
+    - toString(2) ==> Transform decimal number to binary toString
+    - slice(index) ==> Cut the string, starting by the index
+    - Math.max(n1,n2) ==> compare and return the max max_value
+Python:
+    - bin(number) ==> Transform decimal number to binary, but with 0xB first
+    - str(element) ==> transform element to string
+    - [index:] ==> compact slice version in python, starting by the index
+    - max(number1,number2) ==> compare and return the max max_value
