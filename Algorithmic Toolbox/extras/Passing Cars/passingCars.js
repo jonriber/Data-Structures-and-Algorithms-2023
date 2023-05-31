@@ -11,7 +11,7 @@ function passingCars(array){
         if(i == 0){//check if its zero
             carsGoingWest +=1
         }else{ //if its not zero, it gotta be one
-            pairOfPassingCars = carsGoingWest +1
+            pairOfPassingCars += carsGoingWest
         }
     }
     return pairOfPassingCars //this is a number, total os cars passing through
