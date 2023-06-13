@@ -18,37 +18,36 @@ function brackets(str){
             console.log("switch case",i)
             switch(i){
                 case "{":
-                    console.log("{ aqui")
+                    stack.push(1)
                     break
                 case "[":
-                    console.log("[ aqui")
-
+                    stack.push(2)
                     break
                 case "(":
-                    console.log("( aqui")
+                    stack.push(3)
                     break
                 case ")":
+                    if(stack[stack.length-1] == 3) stack.pop()
+                    else return 0
                     break
                 case "]":
+                    if(stack[stack.length-1] == 2) stack.pop()
+                    else return 0
                     break
                 case "}":
+                    if(stack[stack.length-1] == 1) stack.pop()
+                    else return 0
                     break
                 default:
                     console.log("default case")
                     return 0
                     
             }
-            // if(i == "{") stack.push(1)
-            // else if(i == "[") stack.push(2)
-            // else if(i == "(") stack.push(3)
-            // else if(i == ")" && stack[stack.length-1] != 3) stack.push(-3)
-            // else if(i =="]") stack.push(-2)
-            // else if(i == "}") stack.push(-3)
         }
-        
+        console.log("stack:",stack)
     }
     console.log("stack:",stack)
-    return 0 //not properly nested
+    return 1 //not properly nested
 }
 
 const testingCases = ["{[()()]}","([)()]"]
