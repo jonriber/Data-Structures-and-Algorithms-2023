@@ -27,7 +27,7 @@ def brackets(array):
 
 if __name__ == "__main__":
     print("initializing")
-    testing_cases = ["([)()]","{[()()]}"]
+    testing_cases = ["([)()]","{[()()]}",'}()','[{}]',')','}']
 
     for case in testing_cases:
         print(brackets(case))
