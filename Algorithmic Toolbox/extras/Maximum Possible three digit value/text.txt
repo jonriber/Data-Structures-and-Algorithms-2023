@@ -1,0 +1,2 @@
+write a function in python  that, given a three-digiti integer N and an integer K, 
+returns the maximum possible three-digit value that can be obtained by performing at most K increases by 1 of any digit in N
